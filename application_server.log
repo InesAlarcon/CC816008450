@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-16T02:51:40.993685500Z</date>
+  <millis>1637031100993</millis>
+  <nanos>685500</nanos>
+  <sequence>0</sequence>
+  <logger>DVMaster</logger>
+  <level>CONFIG</level>
+  <class>MasterApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER APPLICATION&gt; Configuration done on App logger.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.004658300Z</date>
+  <millis>1637031101004</millis>
+  <nanos>658300</nanos>
+  <sequence>1</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>MasterApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER APPLICATION&gt; Initializing Server Application Server...</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.047543Z</date>
+  <millis>1637031101047</millis>
+  <nanos>543000</nanos>
+  <sequence>2</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>MasterApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER APPLICATION&gt; Server Application is running</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.048539600Z</date>
+  <millis>1637031101048</millis>
+  <nanos>539600</nanos>
+  <sequence>3</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>MasterApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER APPLICATION&gt; Client connecting to Forwarding Module...</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.048539600Z</date>
+  <millis>1637031101048</millis>
+  <nanos>539600</nanos>
+  <sequence>4</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>AppServer</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>SERVER APPLICATION&gt; Reading message from %s...</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.060508Z</date>
+  <millis>1637031101060</millis>
+  <nanos>508000</nanos>
+  <sequence>5</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>MasterApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER APPLICATION&gt; Client side connected to Forwarding Module</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:42.937589500Z</date>
+  <millis>1637031102937</millis>
+  <nanos>589500</nanos>
+  <sequence>6</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>MasterApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CLIENT APPLICATION&gt; Creating request message</message>
+</record>
+</log>

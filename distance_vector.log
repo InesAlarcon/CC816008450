@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-16T02:50:32.859922400Z</date>
+  <millis>1637031032859</millis>
+  <nanos>922400</nanos>
+  <sequence>0</sequence>
+  <logger>DVMaster</logger>
+  <level>CONFIG</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Configuration done on Distance Vector Logger.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.919761Z</date>
+  <millis>1637031032919</millis>
+  <nanos>761000</nanos>
+  <sequence>1</sequence>
+  <logger>DVMaster</logger>
+  <level>CONFIG</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Configuration done on Forwarding Logger.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.920758600Z</date>
+  <millis>1637031032920</millis>
+  <nanos>758600</nanos>
+  <sequence>2</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Initializing Distance Vector...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.923750100Z</date>
+  <millis>1637031032923</millis>
+  <nanos>750100</nanos>
+  <sequence>3</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Initializing...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.926743100Z</date>
+  <millis>1637031032926</millis>
+  <nanos>743100</nanos>
+  <sequence>4</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Found Neighbor 'A' in the configuration file with an initial cost of 1 and IP address &lt;25.81.165.162&gt;</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.927739200Z</date>
+  <millis>1637031032927</millis>
+  <nanos>739200</nanos>
+  <sequence>5</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Neighbor configured successfully</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.929733500Z</date>
+  <millis>1637031032929</millis>
+  <nanos>733500</nanos>
+  <sequence>6</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Found Neighbor 'C' in the configuration file with an initial cost of 1 and IP address &lt;25.6.56.62&gt;</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.931728300Z</date>
+  <millis>1637031032931</millis>
+  <nanos>728300</nanos>
+  <sequence>7</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Neighbor configured successfully</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.932726100Z</date>
+  <millis>1637031032932</millis>
+  <nanos>726100</nanos>
+  <sequence>8</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Finished initialization of neighbors</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.934722700Z</date>
+  <millis>1637031032934</millis>
+  <nanos>722700</nanos>
+  <sequence>9</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Creating first instance of Distance Table...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.936715100Z</date>
+  <millis>1637031032936</millis>
+  <nanos>715100</nanos>
+  <sequence>10</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt; Table has been initialized</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.938709400Z</date>
+  <millis>1637031032938</millis>
+  <nanos>709400</nanos>
+  <sequence>11</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Distance vector is ready</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.950679200Z</date>
+  <millis>1637031032950</millis>
+  <nanos>679200</nanos>
+  <sequence>12</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>printVectorDistance</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt;---	Minimum Distances Table	---
+	A:	1	C:	1</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.957660800Z</date>
+  <millis>1637031032957</millis>
+  <nanos>660800</nanos>
+  <sequence>13</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>printMinimumDistances</method>
+  <thread>1</thread>
+  <message>DISTANCE VECTOR&gt;---	Vector Distance Table	---
+D(B)		|	A	|	C
+A		|	1	|	99
+C		|	99	|	1
+	A:	1	C:	1</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.960662700Z</date>
+  <millis>1637031032960</millis>
+  <nanos>662700</nanos>
+  <sequence>14</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Initializing Master Server...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:32.963644600Z</date>
+  <millis>1637031032963</millis>
+  <nanos>644600</nanos>
+  <sequence>15</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Master server is running</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:34.862597200Z</date>
+  <millis>1637031034862</millis>
+  <nanos>597200</nanos>
+  <sequence>16</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Initializing Master Client...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:34.865587600Z</date>
+  <millis>1637031034865</millis>
+  <nanos>587600</nanos>
+  <sequence>17</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Master client is running</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:34.866632300Z</date>
+  <millis>1637031034866</millis>
+  <nanos>632300</nanos>
+  <sequence>18</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Initializing Forwarding Module...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:34.868609300Z</date>
+  <millis>1637031034868</millis>
+  <nanos>609300</nanos>
+  <sequence>19</sequence>
+  <logger>DVMaster</logger>
+  <level>SEVERE</level>
+  <class>DVMaster</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>MASTER PROGRAM&gt; Forwarding Module is running</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.859427200Z</date>
+  <millis>1637031038859</millis>
+  <nanos>427200</nanos>
+  <sequence>20</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVMasterServer</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>MASTER SERVER&gt; Got new connection: /25.6.56.62,creating Thread to dispatch.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.863414100Z</date>
+  <millis>1637031038863</millis>
+  <nanos>414100</nanos>
+  <sequence>21</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Reading request from /25.6.56.62</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.874388600Z</date>
+  <millis>1637031038874</millis>
+  <nanos>388600</nanos>
+  <sequence>22</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Sent WELCOME message to 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.959926600Z</date>
+  <millis>1637031038959</millis>
+  <nanos>926600</nanos>
+  <sequence>23</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Updating my Distance Vector...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.962086100Z</date>
+  <millis>1637031038962</millis>
+  <nanos>86100</nanos>
+  <sequence>24</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; A new Distance Vector has been received... PROCESSING</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.963081600Z</date>
+  <millis>1637031038963</millis>
+  <nanos>81600</nanos>
+  <sequence>25</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; A new destiny has been discovered D. Initializing every cost as infinite</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.966072700Z</date>
+  <millis>1637031038966</millis>
+  <nanos>72700</nanos>
+  <sequence>26</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; Setting up new cost from Node 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.967070300Z</date>
+  <millis>1637031038967</millis>
+  <nanos>70300</nanos>
+  <sequence>27</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; New cost is: 2</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.968067500Z</date>
+  <millis>1637031038968</millis>
+  <nanos>67500</nanos>
+  <sequence>28</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; Distance Vector Table must be sent to every neighbor. Distance Vector Table has been marked as dirty</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.969066600Z</date>
+  <millis>1637031038969</millis>
+  <nanos>66600</nanos>
+  <sequence>29</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Distance Vector Table updated</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:38.971060Z</date>
+  <millis>1637031038971</millis>
+  <nanos>60000</nanos>
+  <sequence>30</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>printMinimumDistances</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt;---	Vector Distance Table	---
+D(B)		|	A	|	C
+A		|	1	|	99
+C		|	99	|	1
+D		|	99	|	2
+	A:	1	C:	1	D:	2</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:39.863144100Z</date>
+  <millis>1637031039863</millis>
+  <nanos>144100</nanos>
+  <sequence>31</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVMasterServer</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>MASTER SERVER&gt; Got new connection: /25.81.165.162,creating Thread to dispatch.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:39.864932800Z</date>
+  <millis>1637031039864</millis>
+  <nanos>932800</nanos>
+  <sequence>32</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Reading request from /25.81.165.162</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:39.868091100Z</date>
+  <millis>1637031039868</millis>
+  <nanos>91100</nanos>
+  <sequence>33</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Sent WELCOME message to 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.058362100Z</date>
+  <millis>1637031040058</millis>
+  <nanos>362100</nanos>
+  <sequence>34</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Updating my Distance Vector...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.059174900Z</date>
+  <millis>1637031040059</millis>
+  <nanos>174900</nanos>
+  <sequence>35</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; A new Distance Vector has been received... PROCESSING</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.061172900Z</date>
+  <millis>1637031040061</millis>
+  <nanos>172900</nanos>
+  <sequence>36</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; Setting up new cost from Node 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.062180100Z</date>
+  <millis>1637031040062</millis>
+  <nanos>180100</nanos>
+  <sequence>37</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; New cost is: 2</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.063166800Z</date>
+  <millis>1637031040063</millis>
+  <nanos>166800</nanos>
+  <sequence>38</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; Distance Vector Table must be sent to every neighbor. Distance Vector Table has been marked as dirty</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.064464900Z</date>
+  <millis>1637031040064</millis>
+  <nanos>464900</nanos>
+  <sequence>39</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Distance Vector Table updated</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.065411Z</date>
+  <millis>1637031040065</millis>
+  <nanos>411000</nanos>
+  <sequence>40</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>printMinimumDistances</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt;---	Vector Distance Table	---
+D(B)		|	A	|	C
+A		|	1	|	99
+C		|	99	|	1
+D		|	2	|	2
+	A:	1	C:	1	D:	2</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:40.136937500Z</date>
+  <millis>1637031040136</millis>
+  <nanos>937500</nanos>
+  <sequence>41</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:44.975032Z</date>
+  <millis>1637031044975</millis>
+  <nanos>32000</nanos>
+  <sequence>42</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVMasterClient</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>MASTER CLIENT&gt; Creating connection to server 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:44.978024600Z</date>
+  <millis>1637031044978</millis>
+  <nanos>24600</nanos>
+  <sequence>43</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Accepted connection with server /25.81.165.162</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:44.979021300Z</date>
+  <millis>1637031044979</millis>
+  <nanos>21300</nanos>
+  <sequence>44</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending HELLO to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:45.018024700Z</date>
+  <millis>1637031045018</millis>
+  <nanos>24700</nanos>
+  <sequence>45</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending DV to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:45.068299800Z</date>
+  <millis>1637031045068</millis>
+  <nanos>299800</nanos>
+  <sequence>46</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVMasterClient</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>MASTER CLIENT&gt; Creating connection to server 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:45.070241500Z</date>
+  <millis>1637031045070</millis>
+  <nanos>241500</nanos>
+  <sequence>47</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Accepted connection with server /25.6.56.62</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:45.071237900Z</date>
+  <millis>1637031045071</millis>
+  <nanos>237900</nanos>
+  <sequence>48</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending HELLO to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:45.176232900Z</date>
+  <millis>1637031045176</millis>
+  <nanos>232900</nanos>
+  <sequence>49</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending DV to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.972697800Z</date>
+  <millis>1637031058972</millis>
+  <nanos>697800</nanos>
+  <sequence>50</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Updating my Distance Vector...</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.974719700Z</date>
+  <millis>1637031058974</millis>
+  <nanos>719700</nanos>
+  <sequence>51</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; A new Distance Vector has been received... PROCESSING</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.976667700Z</date>
+  <millis>1637031058976</millis>
+  <nanos>667700</nanos>
+  <sequence>52</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; Setting up new cost from Node 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.977664800Z</date>
+  <millis>1637031058977</millis>
+  <nanos>664800</nanos>
+  <sequence>53</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; New cost is: 3</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.979661200Z</date>
+  <millis>1637031058979</millis>
+  <nanos>661200</nanos>
+  <sequence>54</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; Setting up new cost from Node 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.980657100Z</date>
+  <millis>1637031058980</millis>
+  <nanos>657100</nanos>
+  <sequence>55</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; New cost is: 2</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.981654700Z</date>
+  <millis>1637031058981</millis>
+  <nanos>654700</nanos>
+  <sequence>56</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt; Distance Vector Table must be sent to every neighbor. Distance Vector Table has been marked as dirty</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.982651700Z</date>
+  <millis>1637031058982</millis>
+  <nanos>651700</nanos>
+  <sequence>57</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Distance Vector Table updated</message>
+</record>
+<record>
+  <date>2021-11-16T02:50:58.983649Z</date>
+  <millis>1637031058983</millis>
+  <nanos>649000</nanos>
+  <sequence>58</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>printMinimumDistances</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR&gt;---	Vector Distance Table	---
+D(B)		|	A	|	C
+A		|	1	|	3
+C		|	99	|	1
+D		|	2	|	2
+	A:	1	C:	1	D:	2</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.537526500Z</date>
+  <millis>1637031060537</millis>
+  <nanos>526500</nanos>
+  <sequence>59</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Updating my Distance Vector...</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.539521400Z</date>
+  <millis>1637031060539</millis>
+  <nanos>521400</nanos>
+  <sequence>60</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; A new Distance Vector has been received... PROCESSING</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.542470700Z</date>
+  <millis>1637031060542</millis>
+  <nanos>470700</nanos>
+  <sequence>61</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; Setting up new cost from Node 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.543466300Z</date>
+  <millis>1637031060543</millis>
+  <nanos>466300</nanos>
+  <sequence>62</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; New cost is: 3</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.544463700Z</date>
+  <millis>1637031060544</millis>
+  <nanos>463700</nanos>
+  <sequence>63</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; Setting up new cost from Node 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.545463900Z</date>
+  <millis>1637031060545</millis>
+  <nanos>463900</nanos>
+  <sequence>64</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; New cost is: 4</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.546460200Z</date>
+  <millis>1637031060546</millis>
+  <nanos>460200</nanos>
+  <sequence>65</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; Distance Vector Table must be sent to every neighbor. Distance Vector Table has been marked as dirty</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.547455800Z</date>
+  <millis>1637031060547</millis>
+  <nanos>455800</nanos>
+  <sequence>66</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Distance Vector Table updated</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.548453500Z</date>
+  <millis>1637031060548</millis>
+  <nanos>453500</nanos>
+  <sequence>67</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>printMinimumDistances</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt;---	Vector Distance Table	---
+D(B)		|	A	|	C
+A		|	1	|	3
+C		|	3	|	1
+D		|	2	|	2
+	A:	1	C:	1	D:	2</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:00.615172300Z</date>
+  <millis>1637031060615</millis>
+  <nanos>172300</nanos>
+  <sequence>68</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:05.026731300Z</date>
+  <millis>1637031065026</millis>
+  <nanos>731300</nanos>
+  <sequence>69</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending DV to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:05.181538Z</date>
+  <millis>1637031065181</millis>
+  <nanos>538000</nanos>
+  <sequence>70</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending DV to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:18.984322400Z</date>
+  <millis>1637031078984</millis>
+  <nanos>322400</nanos>
+  <sequence>71</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.078593600Z</date>
+  <millis>1637031081078</millis>
+  <nanos>593600</nanos>
+  <sequence>72</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Updating my Distance Vector...</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.079573400Z</date>
+  <millis>1637031081079</millis>
+  <nanos>573400</nanos>
+  <sequence>73</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; A new Distance Vector has been received... PROCESSING</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.079573400Z</date>
+  <millis>1637031081079</millis>
+  <nanos>573400</nanos>
+  <sequence>74</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; Setting up new cost from Node 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.080588400Z</date>
+  <millis>1637031081080</millis>
+  <nanos>588400</nanos>
+  <sequence>75</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; New cost is: 2</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.080588400Z</date>
+  <millis>1637031081080</millis>
+  <nanos>588400</nanos>
+  <sequence>76</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>update</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt; Distance Vector Table must be sent to every neighbor. Distance Vector Table has been marked as dirty</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.081567300Z</date>
+  <millis>1637031081081</millis>
+  <nanos>567300</nanos>
+  <sequence>77</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Distance Vector Table updated</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.081567300Z</date>
+  <millis>1637031081081</millis>
+  <nanos>567300</nanos>
+  <sequence>78</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DistanceVector</class>
+  <method>printMinimumDistances</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR&gt;---	Vector Distance Table	---
+D(B)		|	A	|	C
+A		|	1	|	3
+C		|	3	|	1
+D		|	2	|	2
+	A:	1	C:	1	D:	2</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:21.165647900Z</date>
+  <millis>1637031081165</millis>
+  <nanos>647900</nanos>
+  <sequence>79</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:25.040662500Z</date>
+  <millis>1637031085040</millis>
+  <nanos>662500</nanos>
+  <sequence>80</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:25.196272800Z</date>
+  <millis>1637031085196</millis>
+  <nanos>272800</nanos>
+  <sequence>81</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:38.984257600Z</date>
+  <millis>1637031098984</millis>
+  <nanos>257600</nanos>
+  <sequence>82</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.060508Z</date>
+  <millis>1637031101060</millis>
+  <nanos>508000</nanos>
+  <sequence>83</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>MasterForwarding</class>
+  <method>run</method>
+  <thread>19</thread>
+  <message>MASTER FORWARDING&gt; Got new message from /192.168.232.1: creating Thread to dispatch.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.062502Z</date>
+  <millis>1637031101062</millis>
+  <nanos>502000</nanos>
+  <sequence>84</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>ThreadForwarding</class>
+  <method>run</method>
+  <thread>24</thread>
+  <message>FORWARDING SERVER 'B'&gt; Reading message from /192.168.232.1...</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:41.224610Z</date>
+  <millis>1637031101224</millis>
+  <nanos>610000</nanos>
+  <sequence>85</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:45.056400Z</date>
+  <millis>1637031105056</millis>
+  <nanos>400000</nanos>
+  <sequence>86</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:45.211059Z</date>
+  <millis>1637031105211</millis>
+  <nanos>59000</nanos>
+  <sequence>87</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:51:58.997111300Z</date>
+  <millis>1637031118997</millis>
+  <nanos>111300</nanos>
+  <sequence>88</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:01.317553200Z</date>
+  <millis>1637031121317</millis>
+  <nanos>553200</nanos>
+  <sequence>89</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:05.071275500Z</date>
+  <millis>1637031125071</millis>
+  <nanos>275500</nanos>
+  <sequence>90</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:05.225467800Z</date>
+  <millis>1637031125225</millis>
+  <nanos>467800</nanos>
+  <sequence>91</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:19.039039400Z</date>
+  <millis>1637031139039</millis>
+  <nanos>39400</nanos>
+  <sequence>92</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:21.433566300Z</date>
+  <millis>1637031141433</millis>
+  <nanos>566300</nanos>
+  <sequence>93</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:25.084996100Z</date>
+  <millis>1637031145084</millis>
+  <nanos>996100</nanos>
+  <sequence>94</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:25.239757Z</date>
+  <millis>1637031145239</millis>
+  <nanos>757000</nanos>
+  <sequence>95</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:39.061669800Z</date>
+  <millis>1637031159061</millis>
+  <nanos>669800</nanos>
+  <sequence>96</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:41.502313900Z</date>
+  <millis>1637031161502</millis>
+  <nanos>313900</nanos>
+  <sequence>97</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:45.093046700Z</date>
+  <millis>1637031165093</millis>
+  <nanos>46700</nanos>
+  <sequence>98</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:45.250176500Z</date>
+  <millis>1637031165250</millis>
+  <nanos>176500</nanos>
+  <sequence>99</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:52:59.033239900Z</date>
+  <millis>1637031179033</millis>
+  <nanos>239900</nanos>
+  <sequence>100</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:01.577715100Z</date>
+  <millis>1637031181577</millis>
+  <nanos>715100</nanos>
+  <sequence>101</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:05.102722100Z</date>
+  <millis>1637031185102</millis>
+  <nanos>722100</nanos>
+  <sequence>102</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:05.258873800Z</date>
+  <millis>1637031185258</millis>
+  <nanos>873800</nanos>
+  <sequence>103</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:19.033786300Z</date>
+  <millis>1637031199033</millis>
+  <nanos>786300</nanos>
+  <sequence>104</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:21.879287900Z</date>
+  <millis>1637031201879</millis>
+  <nanos>287900</nanos>
+  <sequence>105</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:25.113517400Z</date>
+  <millis>1637031205113</millis>
+  <nanos>517400</nanos>
+  <sequence>106</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:25.268891100Z</date>
+  <millis>1637031205268</millis>
+  <nanos>891100</nanos>
+  <sequence>107</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:39.045411700Z</date>
+  <millis>1637031219045</millis>
+  <nanos>411700</nanos>
+  <sequence>108</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:41.949856600Z</date>
+  <millis>1637031221949</millis>
+  <nanos>856600</nanos>
+  <sequence>109</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:45.120501300Z</date>
+  <millis>1637031225120</millis>
+  <nanos>501300</nanos>
+  <sequence>110</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:45.276631700Z</date>
+  <millis>1637031225276</millis>
+  <nanos>631700</nanos>
+  <sequence>111</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:53:59.049298300Z</date>
+  <millis>1637031239049</millis>
+  <nanos>298300</nanos>
+  <sequence>112</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:54:02.043902900Z</date>
+  <millis>1637031242043</millis>
+  <nanos>902900</nanos>
+  <sequence>113</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'A'</message>
+</record>
+<record>
+  <date>2021-11-16T02:54:05.135934200Z</date>
+  <millis>1637031245135</millis>
+  <nanos>934200</nanos>
+  <sequence>114</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:54:05.292046900Z</date>
+  <millis>1637031245292</millis>
+  <nanos>46900</nanos>
+  <sequence>115</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:54:19.060163600Z</date>
+  <millis>1637031259060</millis>
+  <nanos>163600</nanos>
+  <sequence>116</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVServer</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>DISTANCE VECTOR SERVER 'B'&gt; Received KeepAlive from 'C'</message>
+</record>
+<record>
+  <date>2021-11-16T02:54:25.142355300Z</date>
+  <millis>1637031265142</millis>
+  <nanos>355300</nanos>
+  <sequence>117</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>DISTANCE VECTOR CLIENT 'A'&gt; Sending KEEPALIVE to server.</message>
+</record>
+<record>
+  <date>2021-11-16T02:54:25.298668100Z</date>
+  <millis>1637031265298</millis>
+  <nanos>668100</nanos>
+  <sequence>118</sequence>
+  <logger>DVMaster</logger>
+  <level>INFO</level>
+  <class>DVClient</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>DISTANCE VECTOR CLIENT 'C'&gt; Sending KEEPALIVE to server.</message>
+</record>
+</log>
